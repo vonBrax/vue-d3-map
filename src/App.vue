@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <d3-map />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import D3Map from './components/map.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    D3Map
   }
 }
 </script>
@@ -23,6 +22,12 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+html, body {
+  margin: 0
+}
+#app {
+  height: 100vh;
+  width: 100vw;
 }
 </style>
