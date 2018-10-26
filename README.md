@@ -1,4 +1,4 @@
-# d3-map
+# vue-d3-map
 
 ## Project setup
 ```
